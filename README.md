@@ -1,8 +1,8 @@
 Hi there 👋
 
-👋 I’m Samuel and i'm fullstack developer with focus on VueJS and Springboot.
+👋 I’m Samuel and I'm a Frontend engineer with a focus on VueJS.
 
-🌱 I’m currently learning React...
+🌱 I’m currently learning clean architecture and TDD...
 
 📫 How to reach me: samuelmvf@gmail.com
 :
