@@ -40,7 +40,7 @@
 
 ###
 
-<p align="center">Welcome to my GitHub profile! I'm Samuel Ferreira, a passionate Software Engineer with 6+ years of experience, front-end expertise but also fullstack proficient, who loves work on React and Vue projects.<br><br>- 6 years working with Vue<br>- 3 years working with React<br>- Hands on experience with Java/Spring and Node/Nest<br><br>🚀 What I Do:<br><br>💻 Building awesome projects with JS/TS<br><br>📖 Always learning and sharing knowledge.<br><br>☁️ Learning cloud computing (AWS CCP)<br><br><br>- Current working in a awesome project with React, Next, TS, Nest, Node, ShadcnUI, TailwindCSS, Clerk and Jotai State Management.</p>
+<p align="center">Welcome to my GitHub profile! I'm Samuel Ferreira, a passionate Software Engineer with 6+ years of experience, front-end expertise but also fullstack proficient, who loves work on React and Vue projects.<br><br>- 6 years working with Vue<br>- 3 years working with React<br>- Hands on experience with Java/Spring and Node/Nest<br><br>🚀 What I Do:<br><br>💻 Building awesome projects with JS/TS<br><br>📖 Always learning and sharing knowledge.<br><br>☁️ Learning cloud computing (AWS CCP soon...)<br><br><br>- Current working in a awesome project with React, Next, TypeScript, ShadcnUI, TailwindCSS, Clerk, Jotai State Management, Nest, Node, Prisma and PostgreSQL.</p>
 
 ###
 
