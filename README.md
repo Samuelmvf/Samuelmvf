@@ -40,7 +40,7 @@
 
 ###
 
-<p align="center">Welcome to my GitHub profile! I'm Samuel Ferreira, a passionate Software Engineer with 6+ years of experience, front-end expertise but also fullstack proficient, who loves work on React and Vue projects.<br><br>- 6 years working with Vue<br>- 3 years working with React<br>- Hands on experience with Java/Spring and Node/Nest<br><br>🚀 What I Do:<br><br>💻 Building awesome projects with JS/TS<br><br>📖 Always learning and sharing knowledge.<br><br>☁️ Learning cloud computing (AWS CCP soon...)<br><br><br>- Current working in a awesome project with React, Next, TypeScript, ShadcnUI, TailwindCSS, Clerk, Jotai State Management, Nest, Node, Prisma and PostgreSQL.</p>
+<p align="center">Welcome to my GitHub profile! I'm Samuel Ferreira, a passionate Software Engineer with 6+ years of experience, front-end expertise but also full-stack proficiency, who loves work on React and Vue projects.<br><br>- 6 years working with Vue<br>- 3 years working with React<br>- Hands-on experience with Java/Spring and Node/Nest<br><br>🚀 What I Do:<br><br>💻 Building awesome projects with JS/TS<br><br>📖 Always learning and sharing knowledge.<br><br>☁️ Learning cloud computing (AWS CCP soon...)<br><br><br>- Current working in an awesome project with React, Next, TypeScript, ShadcnUI, TailwindCSS, Clerk, Jotai State Management, Nest, Node, Prisma and PostgreSQL.</p>
 
 ###
 
@@ -59,3 +59,18 @@
 <h3 align="center">OR<br>samuelmvf@gmail.com</h3>
 
 ###
+
+###
+
+<h3 align="center"> 📊 GitHub Stats: </h3>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmvf&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=samuelmvf&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false"/>
+</p>
+
+###
+
