@@ -42,11 +42,6 @@
 - **Backend & cloud:** Node.js, NestJS, Java, Spring, PostgreSQL, MongoDB, AWS (Lambda, S3, SQS)
 - **AI-assisted engineering:** Cursor, Claude, GitHub Copilot, MCP integrations, agent skills
 
-## Currently
-
-- Senior Software Engineer at Miratech, on enterprise healthcare and education-sector projects.
-- Building reusable agent skills and MCP integrations to cut rework in day-to-day engineering.
-
 ## Get in touch
 
 - LinkedIn: [linkedin.com/in/samuelmvf](https://www.linkedin.com/in/samuelmvf/)
