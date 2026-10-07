@@ -20,6 +20,19 @@
 - Key engineer on a monolith-to-microservices migration that doubled SaaS subscriptions.
 - Led a team of five through a dashboard rebuild that halved load time.
 
+## GitHub activity
+
+<!-- PR-STATS:START -->
+<p>
+  <img src="https://img.shields.io/badge/PRs%20opened-114-0969da?style=flat-square" alt="114 pull requests opened" />
+  <img src="https://img.shields.io/badge/PRs%20merged-102-1a7f37?style=flat-square" alt="102 pull requests merged" />
+  <img src="https://img.shields.io/badge/PRs%20reviewed-56-8250df?style=flat-square" alt="56 pull requests reviewed" />
+  <img src="https://img.shields.io/badge/PRs%20approved-50-0550ae?style=flat-square" alt="50 pull requests approved" />
+</p>
+
+<sub>Across public and private repositories on this account. Refreshed daily by GitHub Actions.</sub>
+<!-- PR-STATS:END -->
+
 ## Tech stack
 
 <p>
