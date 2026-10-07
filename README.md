@@ -24,13 +24,13 @@
 
 <!-- PR-STATS:START -->
 <p>
-  <img src="https://img.shields.io/badge/PRs%20opened-44-0969da?style=flat-square" alt="44 pull requests opened" />
-  <img src="https://img.shields.io/badge/PRs%20merged-41-1a7f37?style=flat-square" alt="41 pull requests merged" />
-  <img src="https://img.shields.io/badge/PRs%20reviewed-0-8250df?style=flat-square" alt="0 pull requests reviewed" />
-  <img src="https://img.shields.io/badge/PRs%20approved-0-0550ae?style=flat-square" alt="0 pull requests approved" />
+  <img src="https://img.shields.io/badge/PRs%20opened-114-0969da?style=flat-square" alt="114 pull requests opened" />
+  <img src="https://img.shields.io/badge/PRs%20merged-102-1a7f37?style=flat-square" alt="102 pull requests merged" />
+  <img src="https://img.shields.io/badge/PRs%20reviewed-56-8250df?style=flat-square" alt="56 pull requests reviewed" />
+  <img src="https://img.shields.io/badge/PRs%20approved-50-0550ae?style=flat-square" alt="50 pull requests approved" />
 </p>
 
-<sub>Across public and private repositories on this account. Refreshed daily by GitHub Actions.</sub>
+<sub>Across public and private repositories, including past work in organizations this account no longer has access to. Refreshed daily by GitHub Actions.</sub>
 <!-- PR-STATS:END -->
 
 ## Tech stack

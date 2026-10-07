@@ -17,6 +17,7 @@ jobs:
       - name: Refresh counters
         env:
           GH_TOKEN: ${{ secrets.PR_STATS_TOKEN }}
+          ARCHIVED_ORGS: ${{ secrets.ARCHIVED_ORGS }}
         run: python3 scripts/pr_stats.py "${{ github.repository_owner }}" README.md
 
       - name: Commit if changed

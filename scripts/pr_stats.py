@@ -5,6 +5,10 @@ Usage:  GH_TOKEN=<token> python3 scripts/pr_stats.py <github-user> [README.md]
 Counts come from GitHub search, so they cover every repository the token can
 see -- private ones included only when the token has the `repo` scope and is
 SSO-authorized for the organizations involved.
+
+Work in organizations the account has lost access to is preserved in
+data/archived-pr-stats.json and added on top. Those organizations must be
+listed in ARCHIVED_ORGS (comma-separated) so they are never counted twice.
 """
 
 import json
@@ -16,6 +20,8 @@ import urllib.request
 API = "https://api.github.com"
 START = "<!-- PR-STATS:START -->"
 END = "<!-- PR-STATS:END -->"
+ARCHIVE_PATH = "data/archived-pr-stats.json"
+KEYS = ("opened", "merged", "reviewed", "approved")
 
 APPROVED_QUERY = """
 query($q: String!, $login: String!, $after: String) {
@@ -49,12 +55,12 @@ def search_count(query):
     return request(f"/search/issues?{params}")["total_count"]
 
 
-def approved_count(user):
+def approved_count(user, exclude):
     """GitHub search has no approved-by qualifier, so inspect each reviewed PR."""
     total, after = 0, None
     while True:
         variables = {
-            "q": f"reviewed-by:{user} type:pr -author:{user}",
+            "q": f"reviewed-by:{user} type:pr -author:{user}{exclude}",
             "login": user,
             "after": after,
         }
@@ -88,7 +94,7 @@ def render(stats):
             *badges,
             "</p>",
             "",
-            "<sub>Across public and private repositories on this account. Refreshed daily by GitHub Actions.</sub>",
+            "<sub>Across public and private repositories, including past work in organizations this account no longer has access to. Refreshed daily by GitHub Actions.</sub>",
             END,
         ]
     )
@@ -98,13 +104,24 @@ def main():
     user = sys.argv[1]
     readme_path = sys.argv[2] if len(sys.argv) > 2 else "README.md"
 
-    stats = {
-        "opened": search_count(f"author:{user} type:pr"),
-        "merged": search_count(f"author:{user} type:pr is:merged"),
-        "reviewed": search_count(f"reviewed-by:{user} type:pr -author:{user}"),
-        "approved": approved_count(user),
+    archived_orgs = [o.strip() for o in os.environ.get("ARCHIVED_ORGS", "").split(",") if o.strip()]
+    exclude = "".join(f" -org:{org}" for org in archived_orgs)
+
+    live = {
+        "opened": search_count(f"author:{user} type:pr{exclude}"),
+        "merged": search_count(f"author:{user} type:pr is:merged{exclude}"),
+        "reviewed": search_count(f"reviewed-by:{user} type:pr -author:{user}{exclude}"),
+        "approved": approved_count(user, exclude),
     }
-    print(stats)
+    archived = {key: 0 for key in KEYS}
+    if os.path.exists(ARCHIVE_PATH):
+        if not archived_orgs:
+            sys.exit(f"{ARCHIVE_PATH} exists but ARCHIVED_ORGS is empty; set it to avoid double counting")
+        with open(ARCHIVE_PATH, encoding="utf-8") as f:
+            frozen = json.load(f)
+        archived = {key: frozen[key] for key in KEYS}
+    stats = {key: live[key] + archived[key] for key in KEYS}
+    print({"live": live, "archived": archived, "total": stats})
 
     readme = open(readme_path, encoding="utf-8").read()
     if START not in readme or END not in readme:
