@@ -35,7 +35,10 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="32" height="32" alt="AWS" title="AWS" />
 </p>
 
-- **Frontend:** React, Next.js, Vue 3 (Composition API, Pinia), Zustand, React Query, MUI, TailwindCSS, Storybook
+- **Frameworks:** Vue 2 and Vue 3 (Options API and Composition API), React, Next.js (SSR), Quasar
+- **State management:** Pinia, Vuex, Zustand, Jotai, React Query, Context API
+- **UI libraries & styling:** MUI, Vuetify, PrimeVue, Quasar, Shadcn UI, TailwindCSS, SCSS/SASS, LESS, Storybook
+- **Forms, validation & i18n:** React Hook Form, Zod, Vue I18n
 - **Architecture:** Micro-frontends, Module Federation, design systems, WCAG 2.0 AA accessibility
 - **Tooling:** pnpm, Vite, Webpack, GitHub Actions, Docker, ESLint, SonarQube
 - **Testing:** Vitest, Jest, Testing Library, Playwright, Cypress, TDD
