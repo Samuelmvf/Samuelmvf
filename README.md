@@ -1,76 +1,55 @@
-<h3 align="center">👋 Hello, World!</h3>
+# Hi, I'm Samuel Maia
 
-###
+**Senior Software Engineer** · JavaScript & TypeScript · React & Vue · Micro-frontends · Frontend modernization
 
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="30" alt="vuejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="30" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="30" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="30" alt="nestjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="30" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="30" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" width="30" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="30" alt="sass logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/less/less-plain-wordmark.svg" width="30" alt="less logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" width="30" alt="gitlab logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="30" alt="docker logo"  />
-</div>
+8+ years building and modernizing web applications across telecom, banking, insurance and healthcare. Based in Brazil (GMT-3), working remotely with US teams for the past three years.
 
-###
+## What I do
 
-<p align="center">Welcome to my GitHub profile! I'm Samuel Ferreira, a passionate Software Engineer with 6+ years of experience, front-end expertise but also full-stack proficiency, who loves work on React and Vue projects.<br><br>- 6 years working with Vue<br>- 3 years working with React<br>- Hands-on experience with Java/Spring and Node/Nest<br><br>🚀 What I Do:<br><br>💻 Building awesome projects with JS/TS<br><br>📖 Always learning and sharing knowledge.<br><br>☁️ Learning cloud computing (AWS CCP soon...)<br><br><br>- Current working in an awesome project with React, Next, TypeScript, ShadcnUI, TailwindCSS, Clerk, Jotai State Management, Nest, Node, Prisma and PostgreSQL.</p>
+- **Modernize frontends at scale**: Vue to React re-platforms, Vue 2 to Vue 3, npm and Yarn to pnpm, and moving codebases onto newer ECMAScript and TypeScript targets.
+- **Design frontend architecture**: micro-frontends with Module Federation, shared design systems (MUI, Storybook) and state management that holds up after the MVP.
+- **Ship products end to end**: two greenfield MVPs delivered as sole frontend engineer in Vue 3 and TypeScript, built test-first from day one.
+- **Work across the stack**: REST APIs in Node.js/NestJS and Java/Spring, running on AWS.
+- **Automate the repetitive parts**: AI agents connected to real repository, ticket and documentation context through MCP servers and CLIs.
 
-###
+## Highlights
 
-<h3 align="center">You can find me on LinkedIn</h3>
+- Migrated a 20-application JavaScript estate from npm and Yarn to pnpm.
+- Cut related support tickets by over 90% by replacing a patch-based sync system with real-time per-entity updates.
+- Recovered $200K in annual revenue by re-enabling insurance products after regulatory changes.
+- Key engineer on a monolith-to-microservices migration that doubled SaaS subscriptions.
+- Led a team of five through a dashboard rebuild that halved load time.
 
-###
+## Tech stack
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/samuelmvf/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-</div>
-
-###
-
-<h3 align="center">OR<br>samuelmvf@gmail.com</h3>
-
-###
-
-###
-
-<h3 align="center"> 📊 GitHub Stats: </h3>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmvf&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false&layout=compact"/>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="32" height="32" alt="TypeScript" title="TypeScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="32" height="32" alt="JavaScript" title="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="32" height="32" alt="React" title="React" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="32" height="32" alt="Next.js" title="Next.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="32" height="32" alt="Vue.js" title="Vue.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="32" height="32" alt="Node.js" title="Node.js" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" width="32" height="32" alt="NestJS" title="NestJS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="32" height="32" alt="Java" title="Java" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="32" height="32" alt="Spring" title="Spring" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="32" height="32" alt="AWS" title="AWS" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=samuelmvf&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=false"/>
-</p>
+- **Frontend:** React, Next.js, Vue 3 (Composition API, Pinia), Zustand, React Query, MUI, TailwindCSS, Storybook
+- **Architecture:** Micro-frontends, Module Federation, design systems, WCAG 2.0 AA accessibility
+- **Tooling:** pnpm, Vite, Webpack, GitHub Actions, Docker, ESLint, SonarQube
+- **Testing:** Vitest, Jest, Testing Library, Playwright, Cypress, TDD
+- **Backend & cloud:** Node.js, NestJS, Java, Spring, PostgreSQL, MongoDB, AWS (Lambda, S3, SQS)
+- **AI-assisted engineering:** Cursor, Claude, GitHub Copilot, MCP integrations, agent skills
 
-###
+## Currently
 
+- Senior Software Engineer at Miratech, on enterprise healthcare and education-sector projects.
+- Building reusable agent skills and MCP integrations to cut rework in day-to-day engineering.
+
+## Get in touch
+
+- LinkedIn: [linkedin.com/in/samuelmvf](https://www.linkedin.com/in/samuelmvf/)
+- Email: [samuelmvfdev@gmail.com](mailto:samuelmvfdev@gmail.com)
+
+English (C1) · Portuguese (native)
