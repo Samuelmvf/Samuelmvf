@@ -24,7 +24,7 @@
 
 <!-- PR-STATS:START -->
 <p>
-  <img src="https://img.shields.io/badge/PRs%20opened-114-0969da?style=flat-square" alt="114 pull requests opened" />
+  <img src="https://img.shields.io/badge/PRs%20opened-113-0969da?style=flat-square" alt="113 pull requests opened" />
   <img src="https://img.shields.io/badge/PRs%20merged-102-1a7f37?style=flat-square" alt="102 pull requests merged" />
   <img src="https://img.shields.io/badge/PRs%20reviewed-56-8250df?style=flat-square" alt="56 pull requests reviewed" />
   <img src="https://img.shields.io/badge/PRs%20approved-50-0550ae?style=flat-square" alt="50 pull requests approved" />
